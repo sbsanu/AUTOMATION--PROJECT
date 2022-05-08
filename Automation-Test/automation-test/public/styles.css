@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #D8E4FF;
+    padding: 0 16px;
+  }
+  
+  header {
+    background-color: #7CA6FF;
+    margin: auto -16px;
+    padding: 16px 32px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+
+.edittestcase{
+    
+    border-radius: 7px;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem;
+}
+
+
+  .edittestcase button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #7CA6FF;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+   
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  th {
+    background-color: rgb(117, 201, 250);
+  }
+  
+  td {
+    background-color: rgb(205, 235, 253);
+  }
+  form {
+    position: relative;
+    width: 880px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 5px;
+    border-radius: 7px;
+    
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+  }
+.text-type{
+  height: 24px;
+  width: 232px;
+}
+
+  form button {
+    position: absolute;
+    right: 15px;
+    bottom: -18px;
+    background: #7CA6FF ;
+    color: #fff;
+    border: none;
+    border-radius: 70%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
